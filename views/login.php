@@ -9,7 +9,7 @@
 		<header>
 			<h1><a href="#">Snotify</a></h1>
 		</header>
-		<main class="container-login">
+		<main class="container-form-login">
 			<a class="link-facebook-login" href="#">Log in with facebook</a>
 			<div class="divider divider-login">
 				<strong class="divider-title">or</strong>
