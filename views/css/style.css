@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+
+/* Global */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	color: 	inherit;
+}
+
+.sign-up a {
+	color: #1db954;
+}
+
+button {
+	text-decoration: none;
+	border: none;
+	min-width: 180px;
+	height: 35px;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: bold;
+}
+
+button:focus {
+	outline: none;
+}
+
+.btn-form-submit {
+	background-color: #1db954;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 10px;
+
+}
+
+.container-input {
+	width: 100%;
+}
+
+.container-input input {
+	width: inherit;
+	padding: 8px;
+	font-size: 16px;
+
+}
+
+.container-input input:focus {
+	outline: 1px solid gray;
+}
+
+.divider {
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #d9dadc;
+	margin: 20px 0;
+	line-height: 1px;
+}
+
+.divider-title {
+	text-transform: uppercase;
+	font-size: 12px;
+	background-color: #fff;
+	padding: 0 20px;
+}
+
+
+/* Header */
+
+header {
+	height: 100px;
+	color: #282828;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #d9dadc;
+	margin-bottom: 30px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 22px;
+}
+
+
+/* Login Page */
+
+.container-login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	min-width: 250px;
+	max-width: 450px;
+	min-height: 250px;
+}
+
+.form-login {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	flex-grow: 1;
+}
+
+.container-btn-login {
+	flex-grow: 1;
+}
+
+.container-input-login {
+	
+}
+
+
+.container-input-login:nth-child(2) {
+	margin-bottom: 15px;
+	margin-top: 7px;
+	flex-grow: 0;
+}
+
+
+.link-facebook-login {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+	background-color: #3b5998;
+	width: 100%;
+	border-radius: 30px;
+	letter-spacing: 2px;
+	font-size: 12px;
+	max-height: 30px;
+	line-height: 30px;
+	flex-grow: 1;
+}
+
+
+.message-empty-input {
+	display: none;
+	color: red;
+	padding: 5px 0 10px;
+}
+
+.divider-login {
+}
+
+
+
+
+/* Now Playing */
+
+#nowPlayingContainer {
+	position: fixed;
+	bottom: 0;
+	background-color: #282828;
+	color:#fff;
+	width: 100%;
+	min-width: 600px;
+}
+
+#nowPlaying {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 90px;
+	width: 100%;
+	padding: 10px;
+}
+
+
+
